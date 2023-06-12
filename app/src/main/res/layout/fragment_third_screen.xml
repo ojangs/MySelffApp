@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars"
+    android:backgroundTint="#ED010F1A"
+    tools:context=".walkthrough.screens.thirdScreen">
+
+    <TextView
+        android:id="@+id/poem"
+        android:layout_width="169dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="229dp"
+        android:layout_marginBottom="301dp"
+        android:fontFamily="@font/lilitaoneregular"
+        android:text="The universe is too silent tonight, i can hear my own thoughts next to a dying star ~ Adi K."
+        android:textAlignment="center"
+        android:textColor="#F8F5F5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="105dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/lilitaoneregular"
+        android:text="START"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/poem" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">whoami</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="nama1">Adi</string>
+    <string name="nama2">Arby</string>
+    <string name="nama3">Daffa</string>
+    <string name="nama4">Diva</string>
+    <string name="nama5">Hasbi</string>
+
+</resources>

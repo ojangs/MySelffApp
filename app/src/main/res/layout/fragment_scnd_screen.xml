@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars"
+    android:backgroundTint="#ED010F1A"
+    tools:context=".walkthrough.screens.scndScreen">
+
+
+    <ImageView
+        android:id="@+id/us1"
+        android:layout_width="145dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="136dp"
+        android:src="@drawable/us"
+        app:layout_constraintBottom_toTopOf="@+id/aboutme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/whatdis"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/whatdis"
+        android:layout_width="130dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="233dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="130dp"
+        android:fontFamily="@font/lilitaoneregular"
+        android:text="WHAT DIS ?"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/us2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/us1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/us2"
+        android:layout_width="145dp"
+        android:layout_height="147dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="241dp"
+        android:rotationX="2"
+        android:rotationY="181"
+        android:src="@drawable/us"
+        app:layout_constraintBottom_toTopOf="@+id/next2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/aboutme"
+        app:layout_constraintTop_toBottomOf="@+id/whatdis" />
+
+    <TextView
+        android:id="@+id/aboutme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="381dp"
+        android:fontFamily="@font/lilitaoneregular"
+        android:text="About Me"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/us2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/us1" />
+
+    <TextView
+        android:id="@+id/next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/lilitaoneregular"
+        android:text="NEXT"
+        android:textColor="#FDFCFC"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/us2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

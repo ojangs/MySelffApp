@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/baseline_home_24"
+                android:title="Home" />
+            <item
+                android:id="@+id/daily"
+                android:icon="@drawable/baseline_hiking_24"
+                android:title="Daily Activity" />
+            <item
+                android:id="@+id/gallery"
+                android:icon="@drawable/baseline_landscape_24"
+                android:title="Gallery"/>
+            <item
+                android:id="@+id/favourites"
+                android:icon="@drawable/baseline_favorite_24"
+                android:title="Favorite"/>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/baseline_sports_martial_arts_24"
+                android:title="Profile"/>
+
+    </group>
+</menu>
